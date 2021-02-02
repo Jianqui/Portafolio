@@ -1,0 +1,49 @@
+.p-relative{
+    position: relative;
+}
+.b{
+    border: solid 1px;
+}
+
+/*### seccion de saludo ###*/
+#saludo{
+    background-image: url(../media/fondo.jpg);
+    height: 100vh;
+}
+#saludo-header p#persona{
+    padding-top: .5em;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+}
+/*saludo-header*/
+#saludo-header p#en-linea{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 200;
+}
+/*saludo-footer*/
+#saludo-pie{
+    position: absolute;
+    bottom: 30px;
+}
+#saludo-footer{
+    border-radius: 10px;
+    padding: .5em;
+    background-color: #ffffff;
+    width: 100%;
+}
+#icono{
+    float: left;
+    padding-right: 30px;
+}
+/* saludo-conversaciones*/
+#card-chat1, #card-chat2, #card-chat3{
+    display: none;
+}
+
+
+/*### seccion principal ###*/
+#cuerpo{
+    display:none;
+}
